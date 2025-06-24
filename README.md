@@ -20,10 +20,6 @@ I'm a self-driven full-stack developer (MERN) obsessed with turning ideas into p
 - Learn obsessively. Ship ruthlessly.
 - Automate the boring. Monetize the smart.
 
-### 📬 Connect
-- Portfolio coming soon...
-- LinkedIn: [Your Link]
-- Twitter: [Your Handle]
 
 ---
 
