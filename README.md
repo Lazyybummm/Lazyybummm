@@ -1,4 +1,4 @@
-# 👋 Hey, I'm Yash (aka Lazyybummm)
+# 👋 Hey, I'm Yash 
 
 > Relentlessly building, learning, and shipping.
 
@@ -14,11 +14,6 @@ I'm a self-driven full-stack developer (MERN) obsessed with turning ideas into p
 - **Frontend**: React, TailwindCSS, Framer Motion, Recoil
 - **Backend**: Node.js, Express
 - **Tools**: Git, MongoDB (sometimes), Tesseract OCR, Electron, GPT/Cohere APIs
-
-### 🎯 Philosophy
-- Code like a craftsman. Think like a product founder.
-- Learn obsessively. Ship ruthlessly.
-- Automate the boring. Monetize the smart.
 
 
 ---
