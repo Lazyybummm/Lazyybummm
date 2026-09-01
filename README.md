@@ -1,41 +1,14 @@
-<div align="center">
+### Yash Choudhary
+Systems Engineer, Real-Time Architect
 
-# Yash Choudhary
+---
 
-**Systems Engineer &nbsp;·&nbsp; Real-Time Architect**
+I build things that are meant to survive contact with reality — not demos, not prototypes, systems.
 
-</div>
+Most of my work lives at the intersection of infrastructure and real-time software: the layer where a connection either holds or doesn't, where a system either scales or quietly falls over. I care less about the tool and more about understanding exactly why it works.
 
-<br>
+Right now I'm deep in **Stark**, a real-time chat system built from the ground up — no shortcuts, no black boxes.
 
-## Who I Am
+---
 
-A builder who cares about what's happening under the hood. I don't stop at "it works" — I want to know why it works, and where it breaks.
-
-<br>
-
-## What I Do
-
-I design and build real-time systems that hold up under real usage — WebSocket internals, PostgreSQL at scale, and the infrastructure decisions that sit between the two. Currently building **Stark**, a production-grade real-time chat system.
-
-**Focus areas:**
-
-- WebSocket internals — framing, backpressure, scaling
-- PostgreSQL schema design & optimization
-- HTTP + WebSocket hybrid architecture
-- Horizontal scaling — sticky sessions, pub/sub, message queues
-- Auth — JWT, token rotation, security fundamentals
-
-<br>
-
-## One More Thing
-
-I choose the right tool for the job, not the trendy one. Every system I build, I understand end to end — no black boxes.
-
-<br>
-
-<div align="center">
-
-*Building systems that don't break when people use them.*
-
-</div>
+If it's fast, it's usually because someone slowed down enough to understand it first.
