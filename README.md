@@ -1,82 +1,41 @@
 <div align="center">
 
-# Stark
+# Yash Choudhary
 
-**Real-time chat infrastructure, built to survive production.**
-
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)](#)
-[![WebSocket](https://img.shields.io/badge/WebSocket-000000?style=flat-square&logo=socket.io&logoColor=white)](#)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](#)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](#)
+**Systems Engineer &nbsp;·&nbsp; Real-Time Architect**
 
 </div>
 
----
+<br>
 
-## Overview
+## Who I Am
 
-Stark is a real-time chat system built on a hybrid **HTTP API + WebSocket** architecture, backed by a shared PostgreSQL store. It's engineered for the parts most chat demos skip — connection scaling, message integrity, and graceful failure — not just the happy path.
+A builder who cares about what's happening under the hood. I don't stop at "it works" — I want to know why it works, and where it breaks.
 
-No frameworks doing the thinking for you. Every layer — transport, auth, persistence — is understood, not assumed.
+<br>
 
----
+## What I Do
 
-## Architecture
+I design and build real-time systems that hold up under real usage — WebSocket internals, PostgreSQL at scale, and the infrastructure decisions that sit between the two. Currently building **Stark**, a production-grade real-time chat system.
 
-```
-┌─────────────┐       ┌──────────────┐       ┌─────────────┐
-│   Client    │──────▶│  HTTP API    │──────▶│             │
-│             │       │  (REST)      │       │             │
-│             │       └──────────────┘       │  PostgreSQL │
-│             │       ┌──────────────┐       │             │
-│             │◀─────▶│  WS Server   │──────▶│             │
-└─────────────┘       │  (real-time) │       └─────────────┘
-                       └──────────────┘
-```
+**Focus areas:**
 
-- **HTTP API** — auth, resource management, group/message operations
-- **WS Server** — real-time delivery, presence, typing indicators
-- **Shared DB layer** — single source of truth across both surfaces
+- WebSocket internals — framing, backpressure, scaling
+- PostgreSQL schema design & optimization
+- HTTP + WebSocket hybrid architecture
+- Horizontal scaling — sticky sessions, pub/sub, message queues
+- Auth — JWT, token rotation, security fundamentals
 
----
+<br>
 
-## Core Features
+## One More Thing
 
-| Capability | Detail |
-|---|---|
-| **Messaging** | Real-time delivery over WebSocket, with pinning and deletion controls |
-| **Groups** | Full group management — creation, membership, roles |
-| **Auth** | JWT-based, with refresh token rotation |
-| **Scaling** | Sticky sessions + pub/sub for horizontal WS scaling |
-| **Security** | TLS/SSL enforced, CSRF/CORS hardened |
-| **Persistence** | PostgreSQL, schema optimized for chat access patterns |
+I choose the right tool for the job, not the trendy one. Every system I build, I understand end to end — no black boxes.
 
----
-
-## Engineering Principles
-
-- **Backpressure-aware** — WS framing and buffering handled explicitly, not left to chance
-- **Stateless where it matters** — horizontal scaling isn't bolted on, it's designed in
-- **Fail loud, fail safe** — connection drops and reconnections are first-class, not edge cases
-- **No magic** — every abstraction earns its place by solving a real problem
-
----
-
-## Tech Stack
-
-`Node.js` · `WebSocket (ws)` · `PostgreSQL` · `JWT` · `TLS/SSL` · `Redis (pub/sub)`
-
----
-
-## Status
-
-Actively developed. Production-oriented from day one — not a prototype pretending to scale.
-
----
+<br>
 
 <div align="center">
 
-**Built by Yash Choudhary**
-*Systems Engineer · Real-time Architect*
+*Building systems that don't break when people use them.*
 
 </div>
